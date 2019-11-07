@@ -11,4 +11,10 @@
     The world is your oyster.
     <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
   </div>
+  <ion-button href="/about">Goto About</ion-button>
+  <ion-button routerLink="/about">Goto About</ion-button>
+  <ion-button [routerLink]="['/about']">Goto About</ion-button>
+  <ion-button [routerLink]="aboutPage">Goto About</ion-button>
+  <ion-button (click)="go()">Go</ion-button>
+  <ion-button (click)="contact()">Contact</ion-button>
 </ion-content>
