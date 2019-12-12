@@ -15,15 +15,16 @@ export class HomePage {
 
   go(){
      //should be an array as input
-    // this.router.navigate(["about"]);
+    //this.router.navigate(["about"]);
 
     //should be string as input
-    this.router.navigateByUrl("/about");
+    this.router.navigateByUrl("about");
   }
 
   contact(){
-    //this.router.navigate(["contact/13"]);
-    this.router.navigate(["contact", 15]);
+    //this.router.navigate(["contact"]);
+    this.router.navigate(["contact/13"]);
+    //this.router.navigate(["contact", 15]);
   }
 
 }
